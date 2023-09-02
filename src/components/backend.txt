@@ -1,0 +1,45 @@
+const cardData = [
+    {
+      title: "Coolio - Gangsta's Paradise (Official Music Video) [HD] ft. L.V.",
+      channel: "Coolio",
+      views: "167K",
+      time: "1 year”,
+      image: "",
+    },
+    {
+      title: "SUMMER HIGH - AP DHILLON - LYRICAL - [PLAY BEATS]",
+      channel: "Play Beats",
+      views: “423K",
+      time: “7 day",
+      image: "",
+    },
+ {
+      title: “Starboy”,
+      channel: "The Weeknd",
+      views: “70M”,
+      time: “5 years”,
+      image: "",
+    },
+{
+      title: “Superman”,
+      channel: "EminemMusic",
+      views: “57.3M”,
+      time: “5 years”,
+      image: "",
+    },
+{
+      title: “God's Plan”,
+      channel: “Drake”,
+      views: “28.3M”,
+      time: “5 years”,
+      image: "",
+    },
+{
+      title: “Hope”,
+      channel: “XXXTENTACION”,
+      views: “28.3M”,
+      time: “5 years”,
+      image: “”,
+    },
+  ];
+
