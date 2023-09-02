@@ -1,1 +1,67 @@
 @import url("https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css");
+*{
+    /* background-color: #1B1B1B; */
+}
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.navbar i{
+    position: absolute;
+    left: 1%;
+    font-size: 2em;
+}
+#search-bar{
+    position: absolute;
+    height: 70%;
+    border : 1px solid black;
+    border-radius: 20px;
+    
+    width: 40%;
+    display: flex;
+    align-items: center;
+    left: 50%;
+
+}
+#logo{
+    height : 30px;
+    width: 30px;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#logo img{
+    height: 100%;
+    width: 130%;
+    /* object-fit: cover; */
+}
+#logo h1{
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+#search{
+    position: absolute;
+    border-radius: 20px;
+    height: 90%;
+    width: 85%;
+    border : none;
+    /* border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%; */
+    /* background-color: blue; */
+}
+#search::placeholder{
+    position: relative;
+    left: 20px;
+    font-size: 1.4em;
+    color: black;
+}
