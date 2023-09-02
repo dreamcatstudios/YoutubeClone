@@ -8,6 +8,7 @@ function Card() {
       channel: "Firstpost",
       views: "169K",
       time: "1 day",
+      image: "",
     },
     {
       title: "How this not works??",
@@ -15,6 +16,7 @@ function Card() {
       channel: "Firstpost",
       views: "169K",
       time: "2 day",
+      image: "",
     },
   ];
 
