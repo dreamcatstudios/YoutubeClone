@@ -1,5 +1,5 @@
 import React from "react";
-import component from "../comonent.css"
+
 function Navigation() {
   return (
     <>

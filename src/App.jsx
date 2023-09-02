@@ -8,9 +8,7 @@ function App() {
 
   return (
     <>
-        <Navigation>
-          
-        </Navigation>
+      <Card />
     </>
   );
 }
