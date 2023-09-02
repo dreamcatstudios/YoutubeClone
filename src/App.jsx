@@ -3,14 +3,14 @@ import Navigation from "./components/Navigation";
 import List from "./components/List";
 import "./App.css";
 import Card from "./components/Card";
-
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <List></List>
-      <Card />
+        <Navigation>
+          
+        </Navigation>
     </>
   );
 }
