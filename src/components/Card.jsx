@@ -25,7 +25,7 @@ function Card() {
       <div>
         {cardData.map((item, index) => {
           return (
-            <div>
+            <div key={index}>
               <p>{item.title}</p>
             </div>
           );
