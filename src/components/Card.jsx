@@ -56,7 +56,7 @@ function Card() {
   return (
     <>
       {cardData.map((item, index) => (
-        <div key={index} style={{ display: "inline-grid", margin: "7px" }}>
+        <div key={index} style={{ display: "inline-grid", margin: "0 7px" }}>
           <div>
             <img
               style={{ borderRadius: "10px", width: "350px" }}
