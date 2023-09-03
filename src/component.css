@@ -80,3 +80,8 @@
     border-radius: 10px;
     font-size: 25px;
 }
+#side-div-container{
+    height: 90vh;
+    width: 30vh;
+    background-color: blue;
+}
