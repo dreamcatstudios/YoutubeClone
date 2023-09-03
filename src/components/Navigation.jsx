@@ -1,4 +1,5 @@
 import React from "react";
+import component from "../component.css"
 
 function Navigation() {
   return (
@@ -11,6 +12,8 @@ function Navigation() {
         </div>
         <div id="search-bar">
           <input type="text" id = "search" placeholder = "search"/>
+          <i class="ri-search-line" id = "lens"></i>
+          <i class="ri-mic-fill" id = "mic"></i>
         </div>
       </div>
     </>
