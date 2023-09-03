@@ -88,3 +88,19 @@
   background-color: #1b1b1b;
   border: 1px solid black;
 }
+
+/* VIDEO PAGE CSS */
+
+.video-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-text {
+  color: white;
+  font-size: 1.25em;
+  word-wrap: break-word;
+  text-align: center;
+}

@@ -1,13 +1,15 @@
-import { useState } from "react";
 import Navigation from "./components/Navigation";
-import "./App.css";
 import { Wrapper } from "./components/Wrapper";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <Wrapper />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
     </>
   );
 }
