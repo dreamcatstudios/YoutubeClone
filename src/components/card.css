@@ -1,0 +1,100 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  border: 0;
+}
+
+.card {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 10px;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.channel-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.channel-name {
+  font-size: 1.95em;
+  color: grey;
+  padding-bottom: 3px;
+}
+
+.card-title {
+  font-size: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.views-time {
+  display: flex;
+  color: white;
+  font-size: 0.85em;
+  gap: 10px;
+  color: grey;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .channel-name {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .channel-name {
+    font-size: 1.25em;
+  }
+}

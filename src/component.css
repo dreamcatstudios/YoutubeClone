@@ -57,7 +57,9 @@
   width: 85%;
   border: none;
   background-color: #121212;
-
+  color: white;
+  font-size: 1.15em;
+  padding-left: 10px;
   border-top-right-radius: 0%;
   border-bottom-right-radius: 0%;
   /* background-color: blue; */
@@ -83,5 +85,6 @@
   height: 90vh;
   width: 30vh;
   padding: 40px;
-  background-color: blue;
+  background-color: #1b1b1b;
+  border: 1px solid black;
 }
