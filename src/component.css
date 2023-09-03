@@ -16,13 +16,14 @@
     position: absolute;
     left: 1%;
     font-size: 2em;
+    color: white;
 }
 #search-bar{
     position: absolute;
     height: 70%;
     border : 1px solid black;
     border-radius: 20px;
-    
+    background-color: #424141;;
     width: 40%;
     display: flex;
     align-items: center;
@@ -40,28 +41,42 @@
 }
 
 #logo img{
-    height: 100%;
-    width: 130%;
+    height: 80%;
+    width: 150%;
     /* object-fit: cover; */
 }
 #logo h1{
     font-size: 1.5em;
     font-weight: 800;
     letter-spacing: -1px;
+    color: white;
 }
 #search{
     position: absolute;
     border-radius: 20px;
-    height: 90%;
+    height: 100%;
     width: 85%;
     border : none;
-    /* border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%; */
+    background-color: #121212;
+
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
     /* background-color: blue; */
 }
 #search::placeholder{
     position: relative;
     left: 20px;
     font-size: 1.4em;
-    color: black;
+    color: #888888;
+}
+#search-bar #lens{
+    position: absolute;
+    font-size: 25px;
+    left: 90%;
+}
+#search-bar #mic{
+    position: absolute;
+    left: 105%;
+    border-radius: 10px;
+    font-size: 25px;
 }
