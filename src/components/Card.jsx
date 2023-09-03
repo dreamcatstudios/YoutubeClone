@@ -9,13 +9,15 @@ function Card() {
       views: "167K",
       time: "1 year",
       image: "/src/assets/Drake.jpg",
+      icon: "",
     },
     {
       title: "SUMMER HIGH - AP DHILLON - LYRICAL - [PLAY BEATS]",
       channel: "Play Beats",
       views: "423K",
       time: "7 day",
-      image: "/src/assets/2481186-200.png",
+      image: "/src/assets/Coolio.jpg",
+      icon: "",
     },
     {
       title: "Starboy",
@@ -23,6 +25,7 @@ function Card() {
       views: "70M",
       time: "5 years",
       image: "/src/assets/weekend.jpg",
+      icon: "",
     },
     {
       title: "Superman",
@@ -30,27 +33,30 @@ function Card() {
       views: "57.3M",
       time: "5 years",
       image: "/src/assets/superman.jpg",
+      icon: "",
     },
     {
       title: "Gods Plan",
       channel: "Drake",
       views: "28.3M",
       time: "5 years",
-      image: "/src/assets/icon-home-10.jpg.png",
+      image: "/src/assets/bcefbc46-6cdf-4cd2-afdd-fec1cfebca7e.jpeg",
+      icon: "",
     },
     {
       title: "Hope",
       channel: "XXXTENTACION",
       views: "28.3M",
       time: "5 years",
-      image: "/src/assets/hope.jpg",
+      image: "/src/assets/c0619392-d957-441c-b4f9-607f5254ca25.jpeg",
+      icon: "",
     },
   ];
 
   return (
     <>
       {cardData.map((item, index) => (
-        <div key={index} style={{ display: "inline-grid", margin: "10px" }}>
+        <div key={index} style={{ display: "inline-grid", margin: "7px" }}>
           <div>
             <img
               style={{ borderRadius: "10px", width: "350px" }}
