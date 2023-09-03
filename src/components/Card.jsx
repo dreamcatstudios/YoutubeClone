@@ -8,42 +8,42 @@ function Card() {
       channel: "Coolio",
       views: "167K",
       time: "1 year",
-      image: "",
+      image: "/src/assets/Drake.jpg",
     },
     {
       title: "SUMMER HIGH - AP DHILLON - LYRICAL - [PLAY BEATS]",
       channel: "Play Beats",
       views: "423K",
       time: "7 day",
-      image: "",
+      image: "/src/assets/2481186-200.png",
     },
     {
       title: "Starboy",
       channel: "The Weeknd",
       views: "70M",
       time: "5 years",
-      image: "",
+      image: "/src/assets/weekend.jpg",
     },
     {
       title: "Superman",
       channel: "EminemMusic",
       views: "57.3M",
       time: "5 years",
-      image: "",
+      image: "/src/assets/superman.jpg",
     },
     {
       title: "Gods Plan",
       channel: "Drake",
       views: "28.3M",
       time: "5 years",
-      image: "",
+      image: "/src/assets/icon-home-10.jpg.png",
     },
     {
       title: "Hope",
       channel: "XXXTENTACION",
       views: "28.3M",
       time: "5 years",
-      image: "",
+      image: "/src/assets/hope.jpg",
     },
   ];
 
@@ -54,7 +54,7 @@ function Card() {
           <div>
             <img
               style={{ borderRadius: "10px", width: "350px" }}
-              src={"/src/assets/Coolio.jpg"}
+              src={item.image}
               alt="main-image"
             />
           </div>
