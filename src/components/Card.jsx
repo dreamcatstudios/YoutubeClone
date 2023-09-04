@@ -84,9 +84,9 @@ function Card() {
               {item.title.slice(0, 5)}
             </p>
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", flexDirection: "column" ,flexWrap :"wrap"}}>
             <h1 style={{ color: "white", fontSize: "1em" }}>{item.channel}</h1>{" "}
-            <div style={{ display: "flex" }}>
+            <div style={{ display: "flex" ,flexDirection : "column"}}>
               <h1
                 style={{ color: "white", fontSize: "1em", padding: "0 20px" }}
               >
